@@ -20,6 +20,8 @@ const IndexPage = () => (
     <Link to="/signup">Sign Up</Link>
     <br />
     <Link to="/quiz-choice">Quiz Choice</Link>
+    <br />
+    <Link to="/incentives">Rewards</Link>
   </Layout>
 )
 
