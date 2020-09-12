@@ -8,6 +8,8 @@ import SEO from "../components/seo"
 import RightSidebar from "../components/RightSidebar"
 import LeftSidebar from "../components/LeftSidebar"
 import Login from "../components/Login"
+import Card from "../components/Card"
+import Deck from "../components/Deck"
 
 const IndexPage = () => (
   <Layout>
