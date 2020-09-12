@@ -1,5 +1,44 @@
-import React from 'react'
-import { Button, Card, Image } from 'semantic-ui-react'
+import React from 'react';
+// import { StaticQuery, graphql } from "gatsby";
+import { Button, Card, Image } from 'semantic-ui-react';
+import "../data/CardContent.json"
+
+// const CardContent = () => (
+//   <StaticQuery query={graphql`
+//     query CardContentQuery {
+//       allCardContentJson {
+//         edges {
+//           node {
+//             title
+//             subtitle
+//             description
+//           }
+//         }
+//       }
+//     }
+//   `}
+//   render = {
+//     data => (
+//       <Card>
+//         <Card.Content>
+//           <Image
+//             floated='right'
+//             size='mini'
+//             src='https://react.semantic-ui.com/images/avatar/large/steve.jpg'
+//           />
+//           <Card.Header>{data.allCardContentJson.edges.title}</Card.Header>
+//           <Card.Meta>{data.allCardContentJson.edges.subtitle}</Card.Meta>
+//           <Card.Description>{data.allCardContentJson.edges.nodedescription}</Card.Description>
+//         </Card.Content>
+//       </Card>
+//     )
+//   }
+//   />
+// );
+
+// export default CardContent;
+
+
 
 const CardExampleGroups = () => (
   <Card.Group>

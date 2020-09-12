@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Software Engineer",
+        "subtitle": "Average Salary: $92,080",
+        "description": "Software developers combine their expertise in computer science, engineering, and math to design, develop, and test software for home, school, and business use. To become a software developer, you'll need at least a bachelor's degree."
+    },
+    {
+        "title": "Special Education Teacher",
+        "subtitle": "Average Salary: $59,080",
+        "description": "Special education teachers teach children who have special learning needs or problems such as trouble speaking. Most teach students in elementary, middle, and high schools, though some work with infants and toddlers.You'll need at least a bachelor's degree to become a special education teacher."
+    },
+    {
+        "title": "Physical Therapist",
+        "subtitle": "Average Salary: $79,830",
+        "description": "Physical Therapists prevent and treat conditions that limit a person's ability to move and function. You'll need at least a master's degree to become a physical therapist."
+    }
+]
