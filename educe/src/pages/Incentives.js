@@ -9,6 +9,8 @@ import Incentives from "../components/Incentives"
 const IncentivesPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Incentives/>
+    <Incentives />
   </Layout>
 )
+
+export default IncentivesPage
