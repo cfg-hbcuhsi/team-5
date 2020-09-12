@@ -13,7 +13,7 @@ const paragraph = <Image src='https://react.semantic-ui.com/images/wireframe/sho
 const ItemExampleDivided = () => (
     <Layout>
         <SEO title="Profile" />
-        <Incenvtives
+        <Incentives
     </Layout>
 )
 
