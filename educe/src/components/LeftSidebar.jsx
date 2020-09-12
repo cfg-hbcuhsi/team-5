@@ -49,15 +49,13 @@ export default function LeftSidebar() {
                     direction='left'
                     visible={visible}
                 />
-                <Sidebar.Pusher>
-                    <Button
-                        onClick={() =>
-                            dispatch({ type: 'CHANGE_ANIMATION', animation: 'slide along' })
-                        }
-                    >
-                        Sidebar
-                    </Button>
-                </Sidebar.Pusher>
+                <Button
+                    onClick={() =>
+                        dispatch({ type: 'CHANGE_ANIMATION', animation: 'slide along' })
+                    }
+                >
+                    Sidebar
+                </Button>
         </div>
     );
 }
