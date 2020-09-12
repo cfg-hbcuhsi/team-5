@@ -4,6 +4,7 @@ import {
     Menu,
     Sidebar
 } from 'semantic-ui-react'
+import Profile from "../components/Profile"
 import './LeftSidebar.css';
 
 const VerticalSidebar = ({ animation, direction, visible }) => (
@@ -17,7 +18,7 @@ const VerticalSidebar = ({ animation, direction, visible }) => (
         visible={visible}
         width='wide'
     >
-        <h1 style = {{color: 'white'}}>career highlight</h1>
+        <Profile />
     </Sidebar>
 )
 
