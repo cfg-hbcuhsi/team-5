@@ -17,7 +17,7 @@ const VerticalSidebar = ({ animation, direction, visible }) => (
         inverted
         vertical
         visible={visible}
-        width='thin'
+        width='wide'
     >
         <h1 style = {{color: 'white'}}>career highlight</h1>
     </Sidebar>
