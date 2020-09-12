@@ -8,15 +8,14 @@ import SEO from "../components/seo"
 import RightSidebar from "../components/RightSidebar"
 import LeftSidebar from "../components/LeftSidebar"
 import Login from "../components/Login"
-import Card from "../components/Card"
-import Deck from "../components/Deck"
+import CardExampleCard from "../components/Card"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <RightSidebar />
     <LeftSidebar />
-    <Login />
+    <CardExampleCard />
     {/* <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
