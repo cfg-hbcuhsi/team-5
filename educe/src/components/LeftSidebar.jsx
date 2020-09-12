@@ -1,8 +1,6 @@
 import React from 'react';
 import {
     Button,
-    Segment,
-    Icon,
     Menu,
     Sidebar
 } from 'semantic-ui-react'
@@ -52,9 +50,6 @@ export default function LeftSidebar() {
                     visible={visible}
                 />
                 <Sidebar.Pusher>
-                    <div>
-                        <h1>Yeet</h1>
-                    </div>
                     <Button
                         onClick={() =>
                             dispatch({ type: 'CHANGE_ANIMATION', animation: 'slide along' })
