@@ -4,7 +4,7 @@ import { Card, Icon } from 'semantic-ui-react'
 const extra = (
   <a>
     <Icon name='user' />
-    300 Points
+    <button type="button">300 Points!</button>
   </a>
 )
 

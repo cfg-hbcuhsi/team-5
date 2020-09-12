@@ -8,6 +8,7 @@ import RightSidebar from "../components/RightSidebar"
 import LeftSidebar from "../components/LeftSidebar"
 import CardExampleGroups from "../components/Card"
 import Profile from "../components/Profile"
+import Incentives from "../components/Incentives"
 
 const IndexPage = () => (
   <Layout>
@@ -16,7 +17,7 @@ const IndexPage = () => (
     <RightSidebar />
     <LeftSidebar />
     <CardExampleGroups />
-<<<<<<< HEAD
+    <Incentives/>
 
     {/* <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
@@ -26,8 +27,7 @@ const IndexPage = () => (
     </div>
     <Link to="/page-2/">Go to page 2</Link> <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
-=======
->>>>>>> 0c5fe5f6590d56bf9d7bd4734781299bef1251c0
+
     <Link to="/login">Log In</Link>
     <br />
     <Link to="/signup">Sign Up</Link>
